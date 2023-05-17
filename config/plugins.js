@@ -11,7 +11,7 @@ module.exports = ({ env }) => ({
       },
     },
 
-    "@cloudinary-strapi/content-plugin": {
+    "cloudinary-content": {
       
       apiKey: env('CLOUDINARY_KEY'),
       token: env('CLOUDINARY_SECRET'),
@@ -25,7 +25,7 @@ upload: {
     providerOptions: {
       cloud_name: env('CLOUDINARY_NAME'),
       api_key: env('CLOUDINARY_KEY'),
-      api_secret: env('COLUDINARY_SECRET'),
+      api_secret: env('CLOUDINARY_SECRET'),
     },
     actionOptions: {
       upload: {},

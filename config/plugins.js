@@ -10,7 +10,15 @@ module.exports = ({ env }) => ({
         roles: ["strapi-super-admin", "strapi-editor", "strapi-author"],
       },
     },
-    
+
+    "@cloudinary-strapi/content-plugin": {
+      
+      apiKey: env('CLOUDINARY_KEY'),
+      token: env('CLOUDINARY_SECRET'),
+      baseUrl:env('CLOUDINARY_BASE_URL', 'https://cloudinary.com')
+    },
+
+
 upload: {
   config: {
     provider: 'cloudinary',
@@ -25,5 +33,8 @@ upload: {
     }
   }
 }
+
+
+
 
   });

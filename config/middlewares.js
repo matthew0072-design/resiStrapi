@@ -1,4 +1,5 @@
-const CLOUDINARY = "https://console.cloudinary.com/console/c-d42cb2e04d10ce13d513267b17be7b/media_library"
+
+const CLOUDINARY = "https://console.cloudinary.com/console/c-d42cb2e04d10ce13d513267b17be7b/media_library/folders/c414acdde20959038170efebea06ac2ad1"
 
 module.exports = [
   'strapi::errors',

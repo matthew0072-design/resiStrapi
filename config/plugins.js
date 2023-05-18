@@ -11,12 +11,7 @@ module.exports = ({ env }) => ({
       },
     },
 
-    "cloudinary-content": {
-      
-      apiKey: env('CLOUDINARY_KEY'),
-      token: env('CLOUDINARY_SECRET'),
-      baseUrl:env('CLOUDINARY_BASE_URL', 'https://cloudinary.com')
-    },
+    
 
 
 upload: {

@@ -10,14 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@cloudimage-strapi/content-plugin": "^1.0.2",
     "@strapi/plugin-i18n": "4.7.1",
     "@strapi/plugin-users-permissions": "4.7.1",
     "@strapi/provider-upload-cloudinary": "^4.8.2",
     "@strapi/strapi": "4.7.1",
     "better-sqlite3": "8.0.1",
     "pg": "^8.10.0",
-    "provider-upload-cloudimage": "^1.0.2",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {

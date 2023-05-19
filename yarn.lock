@@ -2101,6 +2101,14 @@
     "@strapi/utils" "4.7.1"
     fs-extra "10.0.0"
 
+"@strapi/provider-upload-local@^4.3.8":
+  version "4.10.5"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-local/-/provider-upload-local-4.10.5.tgz#d7fcbd3550ccdb9e1f20abb2df88f95193efaf4e"
+  integrity sha512-7h7eXnA0Ohw777xXAxBO5+8XnML3Xu0iAJJWUzdrnYtkJq12De+CaD4BPh4BX7qFuUDT2CUS13/vUnAwOVM4ig==
+  dependencies:
+    "@strapi/utils" "4.10.5"
+    fs-extra "10.0.0"
+
 "@strapi/strapi@4.7.1":
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/@strapi/strapi/-/strapi-4.7.1.tgz#e202792d82a0999071f82a30d7a14b32ed8f02c4"
@@ -2172,6 +2180,18 @@
     lodash "4.17.21"
     prettier "2.8.4"
     typescript "4.6.2"
+
+"@strapi/utils@4.10.5":
+  version "4.10.5"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.10.5.tgz#8a20df57913b8db22634243016664599b0b1c678"
+  integrity sha512-Nz3YWJbhYuzAVRnD078cTYm4hGnfnLZL2xvJoH6QCOMro3RCPawyaAjOcsLQleKaUyhVjz12b2h5wIercfhuMQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
+    yup "0.32.9"
 
 "@strapi/utils@4.7.1":
   version "4.7.1"
@@ -7766,6 +7786,13 @@ property-expr@^2.0.4:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/property-expr/-/property-expr-2.0.5.tgz#278bdb15308ae16af3e3b9640024524f4dc02cb4"
   integrity sha512-IJUkICM5dP5znhCckHSv30Q4b5/JA5enCtkRHYaOVOAocnH/1BQEYTC5NMfT3AVl/iXKdr3aqQbQn9DxyWknwA==
+
+provider-upload-cloudimage@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/provider-upload-cloudimage/-/provider-upload-cloudimage-1.0.2.tgz#411c7f7a1a23b665a9a68ad554295e27e9ba281b"
+  integrity sha512-aWFSBDEQ3ZryZdNZQGhEpP6CcoSs4oV6Pv2oMc/48zvspprm+h0LmPKsJ4OoFqK3CJ7aEykSXK43bddAAsECeA==
+  dependencies:
+    "@strapi/provider-upload-local" "^4.3.8"
 
 proxy-addr@~2.0.7:
   version "2.0.7"

@@ -4,7 +4,7 @@ module.exports = ({ env }) => ({
   app: {
     keys: env.array('APP_KEYS'),
   },
-  url: 'https://www.jimaz-test.onrender.com',
+  // url: 'https://www.jimaz-test.onrender.com',
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },

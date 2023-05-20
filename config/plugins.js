@@ -26,7 +26,7 @@ upload: {
     actionOptions: {
       upload: {},
       uploadStream: {
-        folder: env("CLOUDINARY_FOLDER", ""),
+        folder: env("CLOUDINARY_FOLDER",""),
       },
       delete: {},
     },
